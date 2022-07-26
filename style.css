@@ -26,6 +26,8 @@ p {
 }
 
 ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
     display:flex;
     flex-direction: row;
     gap: 13px;
@@ -39,7 +41,6 @@ ul {
 
 .intro-section  {
     background-color: rgb(155, 200, 255);
-    /* padding: 0px 100px; */
 }
 
 .intro-section img { 
@@ -49,19 +50,22 @@ ul {
 }
 
 .intro-content {
+    margin: 100px 0px;
     display:flex;
 }
 
-.intro-content h1  {
-    color: blue;
-}
-
 .intro-header {
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+}
+
+.intro-content h1  {
+    font-size: 52px;
+    color: blue;
 }
 
 .info-section {
