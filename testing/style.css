@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+html {
+
+}
+
+body {
+    background: bisque;
+    background-image: url("images/organic-tile.png");
+    /* background-size: 200px; */
+    border: 10px solid coral;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+div{
+    display: block;
+}
+
+p {
+    margin: 10px;
+    text-indent: 50px;
+    text-justify:newspaper;
+}
+
+#header {
+    padding: 20px;
+}
+
+#scroll {
+    overflow: scroll;
+}
+
+.container {
+    background: crimson;
+    position:absolute;
+    top: 25%;
+    right: 25%;
+    width: 50%;
+}
+
+.content {
+
+}
+
+.row {
+    display: inline-flex;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid coral;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}

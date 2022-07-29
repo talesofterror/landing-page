@@ -6,7 +6,9 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Arial Narrow Bold', sans-serif
+    font-family: 'Arial Narrow Bold', sans-serif;
+    min-width: 300px;
+    min-height: 100px;
 }
 
 button {
