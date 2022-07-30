@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: bisque;
+    /* background: bisque; */
     background-image: url("images/organic-tile.png");
     /* background-size: 200px; */
     border: 10px solid coral;
@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 div{
@@ -34,13 +34,9 @@ p {
     padding: 20px;
 }
 
-#scroll {
-    overflow: scroll;
-}
-
 .container {
-    background: crimson;
-    position:absolute;
+    background: rgb(220, 20, 60, 0.75);
+    position: absolute;
     top: 25%;
     right: 25%;
     width: 50%;
