@@ -32,3 +32,10 @@ values between 0 and F (0123456789abcdef).
 19  26
 1A  27
 1B  28
+
+
+~
+
+classes needing removal from html: 
+body anim-layer1
+div anim-layer2
