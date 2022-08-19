@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
 }
 
 body {
@@ -51,6 +56,31 @@ a {
     text-decoration: none;
 }
 
+.anim-background {
+    animation: bg-animation 3s linear 0s infinite alternate;
+    background-image: url("images/organic-tile-nb.png");
+}
+
+@keyframes bg-animation {
+    0% {
+        background-image: url("images/organic-tile-nb.png");
+        background-size: 400px auto;
+        background-position-x: 10px;
+        
+    }
+    50% {
+        background-image: url("images/organic-tile-nb.png");
+        background-size: 410px auto;
+        background-position-x: 100px;
+    }
+    100% {
+        background-image: url("images/organic-tile-nb.png");
+        background-size: 420px auto;
+        background-position-x: 10px;
+        
+    }
+}
+
 .anim-layer1 {
     animation: layer1-anim 3s linear 0s infinite alternate;
 }
@@ -70,19 +100,19 @@ a {
 @keyframes layer1-anim {
     0% {
         color: rgb(20, 255, 70);
-        background: rgb(255, 70, 20);
+        background-color: rgb(255, 70, 20);
         border-color: rgb(20, 255, 70);
     }
 
     50% {
         color: rgb(255, 70, 20);
-        background: rgb(120, 170, 255);
+        background-color: rgb(120, 170, 255);
         border-color: rgb(255, 70, 20);
     }
 
     100% {
         color: rgb(120, 170, 255);
-        background: rgb(20, 255, 70);
+        background-color: rgb(20, 255, 70);
         border-color: rgb(120, 170, 255);
     }
 }
@@ -136,6 +166,7 @@ a {
     background-color: rgb(16, 47, 85);
     color: white;
     padding: 0px 10vmax;
+    /* background-image: none; */
 }
 
 .intro-header {
